@@ -395,6 +395,7 @@ h6 a:hover {
 }
 
 .post-one .post-content {
+	text-align: justify;
 	position: absolute;
 	bottom: 10px;
 	left: 25px;
