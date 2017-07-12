@@ -29,42 +29,42 @@
 							<img class="featured-image" src="{{asset "images/no-image.jpg"}}" />
 						{{/if}}
 					</header>
-					
-					<section class="post-content">
+
+					<section class="post-content" style="text-align: justify;">
 						{{content}}
 					</section>
-					
+
 					<footer class="post-footer">
 						{{#if "tags"}}
 						<section class="tags pull-left">
 							<i class="fa fa-tags"></i> {{tags separator=" | "}}
 						</section>
 						{{/if}}
-						
+
 						{{> share}}
 						<div class="clearfix"></div>
-						
+
 						{{> post-author}}
-						
+
 						<div class="clearfix"></div>
-						
+
 							<nav class="pagination">
 								<div>
 									{{#next_post}}
 									<a class="newer-posts-single" href="{{url}}" title="{{title}}">Next post →</a>
 									{{/next_post}}
-									
+
 									{{#prev_post}}
 									<a class="older-posts-single" href="{{url}}" title="{{title}}">← Previous post</a>
 									{{/prev_post}}
-											
+
 								</div>
 							</nav>
-								
+
 						<div class="clearfix"></div>
-						
+
 						{{> comments}}
-						
+
 					</footer>
 				{{/post}}
 			</article>

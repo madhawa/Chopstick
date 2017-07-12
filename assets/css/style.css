@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Droid Serif', arial, sans-serif;
 	font-weight: normal;
 	-ms-word-wrap: break-word;
-	word-wrap: break-word;  
+	word-wrap: break-word;
 }
 
 h1{
@@ -189,7 +189,7 @@ cite {
     background-color: #fe0000;
 }
 
-.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
@@ -312,7 +312,7 @@ a:hover{
 /* ------- Posts ------- */
 
 .featured-image {
-	display: block;
+	display: block; width: 100%;
 	margin-bottom: 1.6rem;
 }
 
@@ -608,7 +608,7 @@ h6 a:hover {
 	.pagination {
 		font-size: 1.1rem;
 	}
-	
+
 	.pagination a {
 		padding: 0.25rem 0.75rem;
 	}
@@ -863,7 +863,7 @@ h6 a:hover {
 	.cp-signup {
 		padding: 5rem 2.5rem;
 	}
-	
+
 	.cp-signup .newsletter h1 {
 		font-size: 3.3rem;
 	}
@@ -996,4 +996,3 @@ footer .social-share a i {
 	color: #fff;
 	margin: 5rem 0 0;
 }
-
