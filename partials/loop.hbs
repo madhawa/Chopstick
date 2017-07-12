@@ -8,9 +8,11 @@
 					{{#if @first}}
 						<article class="col-sm-12 post-one">
 							{{#if image}}
-								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{image}}" /></a>
+								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">
+									<img src="{{image}}" width="100%" /></a>
 							{{else}}
-								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{asset "images/no-image.jpg"}}" /></a>
+								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">
+									<img src="{{asset "images/no-image.jpg"}}" width="100%" /></a>
 							{{/if}}
 							{{#if featured}}
 								<div class="cp-featured"><i class="glyphicon glyphicon-flash"></i></div>
@@ -19,7 +21,7 @@
 								{{#if "tags"}}
 									<div class="tags">{{tags separator=" | "}}</div>
 								{{/if}}
-								<div class="postone-title">	
+								<div class="postone-title">
 									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">{{{title}}}</a></h2>
 								</div>
 								<div class="meta-info">
