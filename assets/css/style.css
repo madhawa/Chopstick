@@ -492,7 +492,7 @@ h6 a:hover {
 }
 
 .cp-author .author-img-avatar {
-    max-height: 100px;
+    height: 100px;
 }
 
 .cp-author .author-meta {
